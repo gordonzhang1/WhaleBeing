@@ -94,7 +94,7 @@ This calculation is pivotal in assessing the risk of ship strikes and supports p
 
 ## Features
 <ul>
-  <li><strong>AI-Powered Whale Distribution Prediction:</strong> Utilized a machine learning model built in Python with NumPy and Pandas to predict whale distribution patterns using open-source satellite data, providing whale presence forecasts for any day of the year.</li>
+  <li><strong>AI-Powered Whale Distribution Prediction:</strong> Built a machine learning model in Python with NumPy and Pandas to predict whale distribution patterns using open-source satellite data, providing whale presence forecasts for any day of the year.</li>
   <li><strong>Real-Time Whale Heatmap:</strong> Integrated the machine learning model with the Mapbox API to deliver an interactive, real-time predictive whale heatmap, enhancing maritime navigation and minimizing the risk of ship strikes.</li>
   <li><strong>Ship Strike Risk Analysis:</strong> Developed a Python-based risk-analysis algorithm in Flask to assess the probability of ship strikes with whales.</li>
   <li><strong>Seamless Integration with Ship Route Search:</strong> Incorporated the Searoutes API to enable dynamic ship route searches, calculating risk percentages based on predicted whale presence.</li>
