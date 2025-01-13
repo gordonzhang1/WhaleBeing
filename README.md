@@ -71,7 +71,6 @@ WhaleBeing enables users to search and visualize ship routes overlaid on our dyn
 
 This calculation is pivotal in assessing the risk of ship strikes and supports proactive decision-making to mitigate such risks, ultimately aiding in the protection of this endangered species.</p>
 
-<p>The frontend of is deployed on Vercel, and the backend is deployed on Render. </p>
 
 
 ### Built With
