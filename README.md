@@ -111,10 +111,11 @@ This calculation is pivotal in assessing the risk of ship strikes and supports p
 
 ## Features
 <ul>
-  <li><strong>Digital Note-Pad:</strong> A note-taking experience that allows users to write, draw, erase, and change colour on a canvas. Additionally, users can also add new pages, delete pages, and clear pages, all which is saved to their account</li>
-  <li><strong>Quiz Generation:</strong> After taking notes, users can press "Quiz Me" to generate a set of questions based on their notes.</li>
-  <li><strong>User Authentication:</strong> Secure sign-in and registration using Firebase for user management, along with forgot password and update profile fuctionalities.</li>
-  <li><strong>Data Storage:</strong> Store user data and notes in Firestore for easy access and management.</li>
+  <li><strong>AI-Powered Whale Distribution Prediction:</strong> Utilized a machine learning model built in Python with NumPy and Pandas to predict whale distribution patterns using open-source satellite data, providing whale presence forecasts for any day of the year.</li>
+  <li><strong>Real-Time Whale Heatmap:</strong> Integrated the machine learning model with the Mapbox API to deliver an interactive, real-time predictive whale heatmap, enhancing maritime navigation and minimizing the risk of ship strikes.</li>
+  <li><strong>Ship Strike Risk Analysis:</strong> Developed a Python-based risk-analysis algorithm in Flask to assess the probability of ship strikes with whales.</li>
+  <li><strong>Seamless Integration with Ship Route Search:</strong> Incorporated the Searoutes API to enable dynamic ship route searches, calculating risk percentages based on predicted whale presence.</li>
+
 </ul>
 And more to come! 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -124,20 +125,12 @@ And more to come!
 <!-- GETTING STARTED -->
 ## Getting Started
 
-<p>Want to try ShakespeareAI out? Go to <a href="https://www.shakespeareai.ca/">www.shakespeareai.ca</a> and sign up. Once logged in, write the first fact that comes to mind, and press Quiz Me.</p>
+<p>Want to try WhaleBeing out? Go to <a href="https://www.whalebeing.co/">www.whalebeing.ca</a> and type in 9455911 for the ship IMO number, and 2025/01/09 - 2025/01/11 for the dates. </p>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
 
-<p>Here are some pictures of this web app in action.</p>
-<img src="/src/assets/sa-cover.jpeg" alt="Logo" width="1000" height="auto">
-<img src="/src/assets/quiz.jpeg" alt="Logo" width="1000" height="auto">
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -166,7 +159,7 @@ Don't forget to give the project a star! Thanks again!
 
 Gordon Zhang - g234zhan@uwaterloo.ca
 
-Project Link: [https://github.com/gordonzhang1/ShakespeareAI](https://github.com/gordonzhang1/ShakespeareAI)
+Project Link: [https://github.com/gordonzhang1/WhaleBeing](https://github.com/gordonzhang1/WhaleBeing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
