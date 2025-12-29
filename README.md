@@ -58,10 +58,13 @@ To change this tragedy, we built WhaleBeing.
 </p>
 
 
-## What it does, and how we built it
+## What it does
 </h3>
 <p>WhaleBeing uses a dynamic prediction model to display how ship routes interact with blue whale habitats using a web app.
 
+Users enter a ship ID to see their ship’s route on a map, along with a heatmap showing where whales are likely to be during the ship’s travel time. The app instantly shows a percentage risk of hitting a whale, highlights high-risk parts of the route, and points out areas ships should avoid.
+
+## How we built it
 The core of our maching learning model is based off a 2019 research paper published in _ Diversity and Distributions (https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.12940) _, and predicts daily, year-round habitat suitability for blue whales off the coast of California. We implemented a method using a Boosted Regression Tree and candidate Generalized Additive Mixed Models to use satellite data of tracked blue whales to produce a whale distribution prediction.
 
 WhaleBeing enables users to search and visualize ship routes overlaid on our dynamic prediction heatmaps using the SeaRoutes API. Once a ship route is found, WhaleBeing calculates the likelihood of that route intersecting with areas of high blue whale activity by integrating the distribution weights along the nodes of the ship route.
